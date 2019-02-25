@@ -11,12 +11,16 @@ namespace MVC_Start.Controllers
   {
     public IActionResult Index()
     {
+            int x = 3;
+            int y = 4;
+            int z = x + y;
+
       return View();
     }
 
     public IActionResult IndexWithLayout()
     {
-      return View();
+     return View();
     }
   }
 }
